@@ -14,5 +14,11 @@ pipeline {
       }
     }
 
+    stage('Comple') {
+      steps{
+        sh '/home/jenkins/demo/gradlew run'
+      }
+    }
+
   }
 }
