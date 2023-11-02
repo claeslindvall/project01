@@ -16,7 +16,8 @@ pipeline {
 
     stage('Comple') {
       steps{
-        sh '/home/jenkins/demo/gradlew run'
+        // sh '/home/jenkins/demo/gradlew run'
+        sh 'echo $USER >> /tmp/user.fil'
       }
     }
 
