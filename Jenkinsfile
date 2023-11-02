@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'agent01'}
+  agent { label param.'agent01'}
 
   stages {
     stage('Msg') {
