@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Shell01') {
+      steps {
+        sh 'echo "Jabbado"'
+      }
+    }
+
   }
 }
